@@ -38,3 +38,5 @@ jobs:
           pip install ruff
           ruff --format=github --target-version=py37 .
         continue-on-error: false
+      - name: run code
+        run: python src/get_data.py
