@@ -25,7 +25,7 @@ jobs:
   #     - name: Display Python version
   #       run: python -c "import sys; print(sys.version)"
 
-  deploy:
+  dev_deploy:
     runs-on: ubuntu-latest
     environment: dev
     steps:
