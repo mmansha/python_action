@@ -1,0 +1,13 @@
+name: Dev Deployment
+
+on: 
+  push:
+    branches:
+      - dev
+
+
+jobs:
+  dev:
+    name: DEV
+    uses: ./.github/workflows/run.yaml
+    
