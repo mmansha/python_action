@@ -5,6 +5,8 @@ name: Python package
 #     branches:
 #       - dev
 
+on:
+  workflow_call:
 
 jobs:
   # build:
